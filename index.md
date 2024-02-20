@@ -1,1 +1,1 @@
-# Kuch bhi random
+redirect_to - /aboutme/
