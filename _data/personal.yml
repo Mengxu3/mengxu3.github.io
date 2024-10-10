@@ -24,11 +24,11 @@ profiles:
   -
     network: LinkedIn
     username:
-    url: https://www.linkedin.com/pub/ian-li/1/681/8b0
+    url: https://www.linkedin.com/in/shubh688/
   -
     network: Twitter
     username: ianli
-    url: https://twitter.com/ianli/
+    url: https://twitter.com/shubh688/
 
 intro:
   title: Hello!
