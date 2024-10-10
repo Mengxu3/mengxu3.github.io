@@ -1,0 +1,3 @@
+---
+BUNDLE_PATH: "vendor/bundle"
+BUNDLE_BUILD__BIGDECIMAL: "--use-system-libraries"

@@ -1,20 +1,20 @@
-name: Ian Li
+name: Shubhankar Bhatt
 
-label: UI Designer
+label: PhD Candidate
 
 picture: /img/profile-picture.jpg
 
-email: ianli@ianli.com
+email: sshubhan@uwo.ca
 
 phone: 
 
-department: Android UX
+department: Department of Mathematics
 
-institution: Google
+institution: Western University, CA
 
 mailing_address: >
-  1600 Amphitheatre Parkway
-  Mountain View, CA 94043
+  Middlesex College
+  London, Ontario, Canada, N6A 5B7
 
 profiles:
   - 
@@ -33,12 +33,6 @@ profiles:
 intro:
   title: Hello!
   body: >
-    I'm a UI designer at Google.
-    Before Google, I was a Ph.D. student in the 
-    [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) at Carnegie Mellon University.
-    My advisors were 
-    [Anind Dey](http://www.cs.cmu.edu/~anind/) and 
-    [Jodi Forlizzi](http://goodgestreet.com/). 
-    I worked on designed and developed 
-    [personal informatics tools](http://www.personalinformatics.org/) that help people better understand their own behavior.
-    [My dissertation](http://ianli.com/thesis/) explored how contextual information can improve self-knowledge in personal informatics systems.
+    I am a PhD student in the [Mathematics department](https://www.math.uwo.ca/) at the University of Western Ontario.
+    My supervisor is [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html).
+    I loosely work in the areas of non-smooth optimization and geometry of polynomials. 

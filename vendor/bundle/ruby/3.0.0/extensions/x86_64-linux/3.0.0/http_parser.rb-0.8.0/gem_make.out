@@ -1,0 +1,9 @@
+current directory: /mnt/c/GitHub/shubh688.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20241010-13898-1zar1x.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/GitHub/shubh688.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+current directory: /mnt/c/GitHub/shubh688.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+make failedNo such file or directory - make
