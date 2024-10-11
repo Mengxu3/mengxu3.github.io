@@ -1,26 +1,30 @@
 name: Shubhankar Bhatt
 
-label: PhD Candidate
+label: PhD Candidate |
+ 	Department of Mathematics
 
-picture: /img/profile-picture.jpg
+picture: /assets/about1.png
 
 email: sshubhan@uwo.ca
 
 phone: 
 
-department: Department of Mathematics
+department: MC-103G | Middlesex College
 
 institution: Western University, CA
 
 mailing_address: >
-  Middlesex College
-  London, Ontario, Canada, N6A 5B7
+  
 
 profiles:
   - 
-    network: Google Scholar
+    network: ORCID
     username:
-    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+    url: https://orcid.org/0009-0005-7502-4044/
+  -
+    network: GitHub
+    username: shubh688
+    url: https://github.com/shubh688/
   -
     network: LinkedIn
     username:
@@ -29,10 +33,15 @@ profiles:
     network: Twitter
     username: ianli
     url: https://twitter.com/shubh688/
+  -
+    
 
 intro:
   title: Hello!
   body: >
-    I am a PhD student in the [Mathematics department](https://www.math.uwo.ca/) at the University of Western Ontario.
-    My supervisor is [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html).
-    I loosely work in the areas of non-smooth optimization and geometry of polynomials. 
+    I am a PhD student in the [mathematics department](https://www.math.uwo.ca/) at the University of Western Ontario.
+    I am working with my doctoral advisor [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html)
+    in non-smooth optimization and geometry of polynomials. 
+    My interests lie in convex geometry, topology, computational geometry and the geometry of polynomials.
+    My current research pertains to polar convexity and how it intertwines with the analytic theory of multivariate polynomials. 
+   

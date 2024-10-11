@@ -25,14 +25,14 @@ header {
 }
   header h1 {
     margin:0;
-    line-height:24px;
+    line-height:45px;
     font-weight:bold;
-    font-size:18px;
+    font-size:40px;
   }
   header h2 {
     margin:0;
-    line-height:24px;
-    font-size:18px;
+    line-height:30px;
+    font-size:26px;
   }
 
 footer {
@@ -65,7 +65,7 @@ section {
   }
   section a,
   section a:hover {
-    color:#44a9eb;
+    color:#522d80;
   }
 
 /*******************
@@ -73,7 +73,7 @@ section {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color:#44a9eb;
+  background-color:#522d80;
   color:#fff;
 }
   .intro-screen h1,
