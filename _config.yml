@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # theme: elbowpatched-boilerplate
-theme: albertine
+# theme: albertine
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
 baseurl: 
