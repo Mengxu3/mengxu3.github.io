@@ -1,14 +1,29 @@
 -
   name: Current semester
   description: >
-        This semester I am a teaching assistant for the courses Calc 2502A with Prof. Pei Yu and Math 1600A with Professors Dan Christensen, Nicole Lemire and Yidi Wang.
+        This semester I am a teaching assistant for the courses Calc 2502A with Professor Pei Yu and Math 1600A with Professors Dan Christensen, Nicole Lemire and Yidi Wang.
 
 
         My office hours for Calc 2502A are 2:30 P.M. -- 3:30 P.M. on Mondays and Fridays.
 -
   name: Past semesters
   description: >
-        
+        I have been a teaching assistant for the following courses in the past
+
+        - Calc 1501, Calc 2503 - Summer 2024
+
+        - Math 2250, Calc 2503 - Winter 2024
+
+        - Math 2151, Math 4154 - Fall 2023
+
+        - Calculus 1501 - Summer 2023
+
+        - Math 1600B - Winter 2023
+
+        - Math 1600A, Math 2151 - Fall 2022
+
+        - Math 1228 - Winter and Summer 2022
+
 -
   name: Private tutoring
   description: >
