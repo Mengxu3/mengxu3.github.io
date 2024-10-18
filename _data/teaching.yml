@@ -1,3 +1,4 @@
+
 -
   name: Current semester
   description: >
@@ -5,12 +6,12 @@
 
 
         My office hours for Calc 2502A are 2:30 P.M. -- 3:30 P.M. on Mondays and Fridays.
-
+  image:
   
 
 -
   name: Past semesters
-  img: /img/bullet.png
+  image: 
   description: >
         I have been a teaching assistant for the following courses in the past
 
@@ -30,6 +31,6 @@
 
 -
   name: Private tutoring
-  img: /img/bullet.png
+  image:
   description: >
         I also offer private tutoring for all mathematics courses and basic statistics and computer science courses. You can find me on the [math private tutor list](https://www.math.uwo.ca/undergraduate/current_students/private_tutors.html).

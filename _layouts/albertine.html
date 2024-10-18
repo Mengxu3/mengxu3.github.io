@@ -137,9 +137,13 @@ It is threatened by habitat loss.
         {% for publication in site.data.publications %}
           <p>
             <b>
-              <a href="{{ publication.pdf }}">
+              {% if publication.url %}
+                <a href="{{ publication.url }}">
+                  {{ publication.title }}
+                </a>
+              {% else %}
                 {{ publication.title }}
-              </a>
+              {% endif %}
             </b>
             <small>
               {{ publication.year }}
@@ -153,10 +157,16 @@ It is threatened by habitat loss.
               {% when 'dissertation' %}
                 {{ publication.publisher }}
               {% when 'journal' %}
-                {{ publication.journal }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
+                {{ publication.journal }}
+                {% if publication.volume %},
+                  {{ publication.volume }}
+                {% endif %}
+                {% if publication.issue %},
+                  {{ publication.issue }}
+                {% endif %}
+                {% if publication.pages %},
+                  {{ publication.pages }}
+                {% endif %}
               {% when 'magazine' %}
                 {{ publication.magazine }},
                 {{ publication.volume }},
@@ -206,7 +216,7 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
-  {% if site.data.projects.size > 0 %}
+  {% if site.data.teaching.size > 0 %}
   <!-- ==================== -->
   <!-- TEACHING -->
   <!-- ==================== -->
@@ -217,16 +227,18 @@ It is threatened by habitat loss.
       </div>
     </div>
 
-    {% for project in site.data.projects %}
+    {% for teaching in site.data.teaching %}
       <div class="row">
-        <div class="col-xs-4
+        <div class="col-md-9"> /% col-xs-4
                     col-sm-3
                     col-md-3
-                    col-lg-2">
+                    col-lg-2 %/
           <p>
-            <img src="{{ site.baseurl }}{{ project.image }}" 
+            {% if teaching.image %}
+            <img src="{{ site.baseurl }}{{ teaching.image }}" 
                  class="img-responsive img-thumbnail"
                  style="width:100%" >
+            {% endif %}
           </p>
         </div>
         <div class="col-xs-12
@@ -235,17 +247,17 @@ It is threatened by habitat loss.
                     col-lg-7">
           <p>
             <b>
-              {% if project.url %}
-                <a href="{{ project.url }}">
-                  {{ project.name }}
+              {% if teaching.url %}
+                <a href="{{ teaching.url }}">
+                  {{ teaching.name }}
                 </a>
               {% else %}
-                {{ project.name }}
+                {{ teaching.name }}
               {% endif %}
             </b>
           </p>
 
-          {{ project.description | markdownify }}
+          {{ teaching.description | markdownify }}
         </div>
       </div>
     {% endfor %}

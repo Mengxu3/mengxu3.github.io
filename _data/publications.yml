@@ -2,12 +2,14 @@
   type: Article
   title: On polar convexity in finite-dimensional Euclidean spaces
   authors: Shubhankar Bhatt, Hristo Sendov
+  type: journal
   journal: Canadian Journal of Mathematics
-  volume: To appear 
-  issue: To appear
+  volume: 
+  issue: 
   year: To appear
-  #pdf: 
-  #url:
+  pages: 
+  pdf: 
+  url:
 -
   type: Article
   title: Gauss-Lucas theorem for multivariate polynomials and their polar derivatives
