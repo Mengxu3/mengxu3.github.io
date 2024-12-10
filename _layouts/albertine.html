@@ -148,7 +148,12 @@ It is threatened by habitat loss.
                 {{ publication.title }}
               {% endif %}
             </b>
-            <small>
+		<small>{% if publication.pdf %}
+                [<a href="{{ publication.pdf }}">
+                  preprint
+                </a>]
+              {% endif %}
+            
               {{ publication.year }}
             </small>
             <br>
