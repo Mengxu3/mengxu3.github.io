@@ -2,10 +2,7 @@
 -
   name: Current semester
   description: >
-        This semester I am a teaching assistant for the courses Calc 2502A with Professor Pei Yu and Math 1600A with Professors Dan Christensen, Nicole Lemire and Yidi Wang.
-
-
-        My office hours for Calc 2502A are 2:30 P.M. -- 3:30 P.M. on Mondays and Fridays.
+        This semester I am a teaching assistant for the courses Math 3159B with Dr. Hyun Jong Kim and Math 4156B with Professor Gord Sinnamon.
   image:
   
 
@@ -14,6 +11,8 @@
   image: 
   description: >
         I have been a teaching assistant for the following courses in the past
+
+        - Math 1600A, Calc 2502A - Fall 2024
 
         - Calc 1501, Calc 2503 - Summer 2024
 
