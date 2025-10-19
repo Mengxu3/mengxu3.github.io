@@ -1,44 +1,29 @@
 name: Mengxu Yuan
-
-label: PhD Student |  Department of Mathematics
-
+label: PhD Student | Department of Mathematics
 picture: /assets/profile-picture.jpg
-
 email: myuan89@uwo.ca
-
-phone: 
-
+phone:
 department: MC-102 | Middlesex College
-
 institution: Western University, CA
-
 mailing_address: >
-  
 
 profiles:
-  - 
-    network: ORCID
+  - network: ORCID
     username:
-    url: 
-  -
-    network: GitHub
-    username: 
-    url: 
-  -
-    network: LinkedIn
+    url:
+  - network: GitHub
     username:
-    url: 
-  -
-    network: Twitter
-    username: 
-    url: 
-  -
-    
+    url:
+  - network: LinkedIn
+    username:
+    url:
+  - network: Twitter
+    username:
+    url:
 
 intro:
   title: Hello!
   body: >
-    I am a PhD student in the Department of Mathematics at the University of Western Ontario.
-    My supervisor is Dr. Hristo Sendov.
+    I am a PhD student in the [Department of Mathematics](https://www.math.uwo.ca/) at the University of Western Ontario.
+    My supervisor is [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html).
     I completed my M.Sc. in Pure Mathematics at Western (2024-2025) and my B.Sc. in Information and Computing Science at Wuhan University of Technology (2020-2024).
-   
