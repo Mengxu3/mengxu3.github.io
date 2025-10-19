@@ -1,7 +1,7 @@
 -
   name: Current Semester (Fall 2025)
   image:
-  description: >
+  description: |
     Graduate Teaching Assistant for:
 
     - MATH 2155 (Mathematical Structures)
@@ -10,7 +10,7 @@
 -
   name: Past Semesters
   image:
-  description: >
+  description: |
     I have been a Graduate Teaching Assistant for the following courses in the past:
 
     - MATH 1229 (Methods of Matrix Algebra) & MATH 1228 (Methods of Finite Mathematics) - Summer 2025
