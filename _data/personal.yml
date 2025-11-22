@@ -12,8 +12,8 @@ profiles:
     username:
     url:
   - network: GitHub
-    username:
-    url:
+    username: 
+    url: https://github.com/Mengxu3/mengxu3.github.io
   - network: LinkedIn
     username: mengxu-yuan
     url: https://www.linkedin.com/in/mengxu-yuan
