@@ -8,18 +8,18 @@ institution: Western University, CA
 mailing_address: >
 
 profiles:
-＃  - network: ORCID
-    username:
-    url:
+  # - network: ORCID
+  #   username:
+  #   url:
   - network: GitHub
-    username: 
+    username: Mengxu3
     url: https://github.com/Mengxu3
   - network: LinkedIn
     username: mengxu-yuan
     url: https://www.linkedin.com/in/mengxu-yuan
- ＃ - network: Twitter
-    username:
-    url:
+  # - network: Twitter
+  #   username:
+  #   url:
 
 intro:
   title: Hello!
