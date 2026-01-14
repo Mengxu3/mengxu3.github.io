@@ -1,11 +1,10 @@
 -
-  name: Current Semester (Fall 2025)
+  name: Current Semester (Winter 2026)
   image:
   description: |
     Graduate Teaching Assistant for:
-
-    - MATH 2155 (Mathematical Structures)
-    - MATH 2151 (Discrete Math for Engineers)
+  -Math 1600(Linear Algebra I)
+    
 
 -
   name: Past Semesters
@@ -13,6 +12,7 @@
   description: |
     I have been a Graduate Teaching Assistant for the following courses in the past:
 
+    - MATH 2155 (Mathematical Structures) & MATH 2151 (Discrete Math for Engineers) - Fall 2025
     - MATH 1229 (Methods of Matrix Algebra) & MATH 1228 (Methods of Finite Mathematics) - Summer 2025
     - MATH 2700 (Linear Algebra II) - Winter 2025
     - CALCULUS 1000 (Calculus I) - Fall 2024
