@@ -1,11 +1,10 @@
--
-  name: Current Semester (Winter 2026)
+- name: Current Semester (Winter 2026)
   image:
   description: |
     Graduate Teaching Assistant for:
     
-    - MATH 1600 (Linear Algebra I)
-
+    - MATH 1225 (Methods of Calculus)
+    - AM 1201 (Calculus & Probability with Biological Applications)
 -
   name: Past Semesters
   image:
