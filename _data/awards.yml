@@ -1,19 +1,40 @@
 - name: Western Graduate Research Scholarship (WGRS)
-  year: 2024 -- Present
+  year: Sept. 2024 -- Present
   organization: Western University
-  description: "" # 博士全额奖学金，不用多解释
+  description: "" # 博士全额奖学金
 
-- name: National Endeavor Scholarship
-  year: 2021
-  organization: Ministry of Education of China
-  description: "Awarded to top 2% of undergraduate students for academic excellence."
-
-- name: First Prize, National College Student Mathematics Competition
-  year: 2021
-  organization: Chinese Mathematical Society
+- name: Merit Student
+  year: Nov. 2023
+  organization: Wuhan University of Technology
   description: ""
 
-- name: Third Prize, 'Huazhong Cup' Mathematical Modeling Competition
-  year: 2022
+- name: Third-Class Scholarship
+  year: Nov. 2023
+  organization: Wuhan University of Technology
+  description: ""
+
+- name: Second-Class Scholarship
+  year: Nov. 2022
+  organization: Wuhan University of Technology
+  description: ""
+
+- name: Third Prize, 14th 'Huazhong Cup' Mathematical Modeling Competition
+  year: Jun. 2022
   organization: Hubei Society for Industrial and Applied Mathematics
+  description: ""
+
+- name: First Prize, 13th National College Student Mathematics Competition
+  year: Dec. 2021
+  organization: The Chinese Mathematical Society
+  description: ""
+
+- name: National Endeavor Scholarship
+  year: Nov. 2021
+  organization: Wuhan University of Technology
+  description: "Awarded to top 2% of students for academic excellence." 
+  # 这一项含金量很高，我建议保留这句描述，如果不想要可以删掉
+
+- name: Merit Student
+  year: Nov. 2021
+  organization: Wuhan University of Technology
   description: ""
