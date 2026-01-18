@@ -2,7 +2,7 @@
   type: Article
   title: "Few-shot Font Generation based on SAE and Diffusion Model"
   authors: Yizuo Shi, Wenxia Yang, Mengxu Yuan, Zeping Yi
-  journal: "Highlights in Science, Engineering and Technology (Proc. AMMSAC 2024)"
+  venue: "Highlights in Science, Engineering and Technology (Proc. AMMSAC 2024)"  # 这里把 journal 改成 venue
   volume: 107
   year: 2024
   pages: 613-627
