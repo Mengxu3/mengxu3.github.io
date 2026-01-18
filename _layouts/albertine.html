@@ -300,7 +300,35 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
+{% if site.data.resources.size > 0 %}
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Learning Resources</h3>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-md-9">
+        <ul style="padding-left: 20px;">
+        {% for resource in site.data.resources %}
+          <li style="margin-bottom: 10px;">
+            <b>
+              <a href="{{ resource.url }}" target="_blank">{{ resource.title }}</a>
+            </b>
+            {% if resource.description %}
+              <br>
+              <small class="text-muted">{{ resource.description }}</small>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+	
   <!-- ==================== -->
   <!-- FOOTER -->
   <!-- ==================== -->
