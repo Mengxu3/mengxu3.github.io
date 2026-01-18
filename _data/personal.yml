@@ -11,9 +11,9 @@ profiles:
   - network: Google Scholar
     username: Mengxu Yuan
     url: https://scholar.google.com/citations?user=bsncqRkAAAAJ&hl=en
-  # - network: ORCID
-  #   username:
-  #   url:
+  - network: ORCID
+    username: 0009-0002-5166-183X
+    url: https://orcid.org/0009-0002-5166-183X
   - network: GitHub
     username: Mengxu3
     url: https://github.com/Mengxu3
