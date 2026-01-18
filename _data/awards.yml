@@ -31,8 +31,7 @@
 - name: National Endeavor Scholarship
   year: Nov. 2021
   organization: Wuhan University of Technology
-  description: "Awarded to top 2% of students for academic excellence." 
-  # 这一项含金量很高，我建议保留这句描述，如果不想要可以删掉
+  description: "" 
 
 - name: Merit Student
   year: Nov. 2021
