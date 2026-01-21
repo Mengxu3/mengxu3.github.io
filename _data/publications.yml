@@ -1,4 +1,12 @@
 -
+  type: preprint
+  title: "Aggregate Bounds on the eigenvalues of the principal submatrices of a Hermitian matrix and majorization relations"
+  authors: Hristo Sendov, Mengxu Yuan
+  journal: "ResearchGate Preprint"
+  year: 2026
+  doi: "10.13140/RG.2.2.14706.16326"
+  url: "https://doi.org/10.13140/RG.2.2.14706.16326"
+-
   type: journal
   title: "Few-shot Font Generation based on SAE and Diffusion Model"
   authors: Yizuo Shi, Wenxia Yang, Mengxu Yuan, Zeping Yi
