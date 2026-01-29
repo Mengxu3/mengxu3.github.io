@@ -213,40 +213,47 @@ It is threatened by habitat loss.
       </div>
     </div>
 
-    {% for presentation in site.data.presentations %}
-      <div class="row" style="margin-bottom: 15px;">
+{% for presentation in site.data.presentations %}
+      <div class="row" style="margin-bottom: 20px;">
         <div class="col-md-9">
-          <div style="margin-bottom: 4px;">
-            <b>
-              {% if presentation.slides_url %}
-                <a href="{{ presentation.slides_url }}">
-                  {{ presentation.title }}
-                </a>
-              {% else %}
-                {{ presentation.title }}
-              {% endif %}
+          <div style="margin-bottom: 6px;">
+            <b style="font-size: 1.1em;">
+              {{ presentation.title }}
             </b>
-            <small class="text-muted">
-              {{ presentation.date }}
-            </small>
-            <br>
-            {{ presentation.location }}
+            <div style="color: #666; font-size: 0.95em; margin-top: 2px;">
+              {{ presentation.date | date: "%B %-d, %Y" }}
+            </div>
+            <div style="color: #333; font-size: 0.95em;">
+              {{ presentation.location }}
+            </div>
           </div>
 
-          {% if presentation.description %}
-            <details style="margin-top: 5px;">
-              <summary style="cursor: pointer; color: #337ab7; font-size: 0.9em; outline: none; user-select: none;">
-                <span style="margin-right: 4px;">&#9656;</span><span style="border-bottom: 1px dashed #337ab7;">View Abstract</span>
-              </summary>
-              <div style="margin-top: 8px; padding: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 4px; font-size: 0.9em; color: #333; line-height: 1.6;">
-                {{ presentation.description }}
-              </div>
-            </details>
-          {% endif %}
-          
+          <div style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 15px; align-items: center;">
+            
+            {% if presentation.slides %}
+              <a href="{{ site.baseurl }}{{ presentation.slides }}" target="_blank" style="color: #d9534f; font-weight: bold; font-size: 0.9em; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> [Slides]
+              </a>
+            {% endif %}
+
+            {% if presentation.description %}
+              <details>
+                <summary style="cursor: pointer; color: #337ab7; font-size: 0.9em; font-weight: bold; outline: none; list-style: none;">
+                  <span style="margin-right: 2px;">▸</span> View Abstract
+                </summary>
+                <div style="margin-top: 10px; padding: 15px; background-color: #f8f9fa; border-left: 3px solid #337ab7; border-radius: 2px; font-size: 0.95em; color: #333; line-height: 1.6;">
+                  {{ presentation.description }}
+                </div>
+              </details>
+            {% endif %}
+            
+          </div>
+
         </div>
       </div>
     {% endfor %}
+
+	  
   </section>
   {% endif %}
 
