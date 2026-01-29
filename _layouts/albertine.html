@@ -234,6 +234,37 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
+
+{% if site.data.awards.size > 0 %}
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Honors & Awards</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+        <ul style="padding-left: 20px;"> 
+        {% for award in site.data.awards %}
+          <li style="margin-bottom: 10px;">
+            <b>{{ award.name }}</b>
+            <span class="text-muted" style="float:right;">{{ award.year }}</span>
+            <br>
+            <i>{{ award.organization }}</i>
+            {% if award.description and award.description != "" %}
+              <br><small>{{ award.description }}</small>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+	
+
   {% if site.data.teaching.size > 0 %}
   <!-- ==================== -->
   <!-- TEACHING -->
