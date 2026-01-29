@@ -3,7 +3,7 @@
   time: "16:30 - 17:30"
   location: "MC 108, Middlesex College, UWO"
   event: "Graduate Student Seminar"
-  slides: "/assets/2026-02-06-talk-slides.pdf"
+  slides: "/assets/2026-02-06-slides.pdf"
   description: >-
     We extend bounds, proved by R.C. Thompson in 1966, on the sum of the $j$-th largest eigenvalues of the $(n-1) \times (n-1)$ principal matrices of an $n \times n$ Hermitian matrix.
     Our bounds are stronger than just summing up Thompson's bounds. We achieve the extensions as a corollary of a more general result giving bounds on the zeros of the generalized derivatives of polynomials with real roots.
