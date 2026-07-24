@@ -23,7 +23,6 @@ profiles:
   - network: arXiv
     username: yuan_m_1
     url: https://arxiv.org/a/yuan_m_1.html
-    icon: file-pdf-o
 
   # - network: Twitter
   #   username:
