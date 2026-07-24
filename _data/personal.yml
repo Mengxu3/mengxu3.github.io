@@ -21,8 +21,8 @@ profiles:
     username: mengxu-yuan
     url: https://www.linkedin.com/in/mengxu-yuan
   - network: arXiv
-  username: yuan_m_1
-  url: https://arxiv.org/a/yuan_m_1.html
+    username: yuan_m_1
+    url: https://arxiv.org/a/yuan_m_1.html
   # - network: Twitter
   #   username:
   #   url:
