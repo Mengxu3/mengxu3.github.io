@@ -23,6 +23,9 @@ profiles:
   - network: arXiv
     username: yuan_m_1
     url: https://arxiv.org/a/yuan_m_1.html
+    icon_pack: ai     # ai 代表 Academicons 学术图标库
+    icon: arxiv       # 指定调用 arxiv 图标
+
   # - network: Twitter
   #   username:
   #   url:
