@@ -140,7 +140,7 @@ It is threatened by habitat loss.
               <i class="ai ai-arxiv"></i>
             {% endif %}
             
-            <a href="{{ profile.url }}">
+            <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">
               {{ profile.network }}
             </a>
             
@@ -164,7 +164,7 @@ It is threatened by habitat loss.
           <p>
             <b>
               {% if publication.url %}
-                <a href="{{ publication.url }}">
+                <a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">
                   {{ publication.title }}
                 </a>
               {% else %}
@@ -172,7 +172,7 @@ It is threatened by habitat loss.
               {% endif %}
             </b>
 		<small>{% if publication.pdf %}
-                [<a href="{{ publication.pdf }}">
+                [<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer">
                   preprint
                 </a>]
               {% endif %}
