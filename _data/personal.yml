@@ -1,6 +1,6 @@
 name: Mengxu Yuan
 label: PhD Student | Department of Mathematics
-picture: /assets/123.jpg
+picture: /assets/1234.jpg
 email: myuan89@uwo.ca
 phone:
 department: MC-102 | Middlesex College
@@ -23,8 +23,7 @@ profiles:
   - network: arXiv
     username: yuan_m_1
     url: https://arxiv.org/a/yuan_m_1.html
-    icon_pack: ai     # ai 代表 Academicons 学术图标库
-    icon: arxiv       # 指定调用 arxiv 图标
+    icon: file-pdf-o
 
   # - network: Twitter
   #   username:
