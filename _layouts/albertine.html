@@ -123,9 +123,7 @@ It is threatened by habitat loss.
         </p>
 
         <p>
-          {% for profile in site.data.personal.profiles %}
-            
-            {% if profile.network == 'Google Scholar' %}
+          {% if profile.network == 'Google Scholar' %}
               <i class="fa-brands fa-google"></i>
             {% elsif profile.network == 'LinkedIn' %}
               <i class="fa-brands fa-linkedin"></i>
@@ -135,12 +133,8 @@ It is threatened by habitat loss.
               <i class="fa-brands fa-square-github"></i>
 	    {% elsif profile.network == 'ORCID' %}
               <i class="fa-brands fa-orcid"></i>
-            {% endif %}
-            <a href="{{ profile.url }}">
-              {{ profile.network }}
-            </a>
-            {% if forloop.last == false %}
-              <br>
+            {% elsif profile.network == 'arXiv' %}
+              <i class="fa-solid fa-file-pdf"></i>
             {% endif %}
           {% endfor %}
         </p>
