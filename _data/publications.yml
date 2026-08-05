@@ -4,7 +4,7 @@
   journal: "Submitted"
   year: 2026
   pages: "7 pages"
-  pdf: "assets/2026_08_05_On_the_De_Bruijn_Springer_Inequality_tex.pdf"
+  url: "assets/2026_08_05_On_the_De_Bruijn_Springer_Inequality_tex.pdf"
 
 - type: journal
   title: "Two Absolutely Bounded Determinantal Ratios"
@@ -12,7 +12,7 @@
   journal: "Submitted"
   year: 2026
   pages: "14 pages"
-  pdf: "assets/2026_08_01_Two_absolutely_bounded_determinantal_ratios_tex.pdf"
+  url: "assets/2026_08_01_Two_absolutely_bounded_determinantal_ratios_tex.pdf"
 
 - type: journal
   title: "Aggregate Bounds on the eigenvalues of the principal submatrices of a Hermitian matrix and majorization relations"
@@ -31,4 +31,3 @@
   year: 2024
   pages: "613-627"
   url: "https://doi.org/10.54097/rp4sqj55"
-  pdf: "assets/DRP++AMMSAC++2024-613-627.pdf"
