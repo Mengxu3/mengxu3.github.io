@@ -1,5 +1,14 @@
 -
   type: journal
+  title: "A Note on the De Bruijn-Springer Inequality Between the Zeros and Critical Points of Polynomials"
+  authors: Hristo Sendov, Mengxu Yuan
+  journal: "Submitted"
+  year: 2026
+  pages: "7 pages"
+  doi: "10.48550/arXiv.2601.16320"
+  url: "http://arxiv.org/abs/2601.16320"
+-
+  type: journal
   title: "Aggregate Bounds on the eigenvalues of the principal submatrices of a Hermitian matrix and majorization relations"
   authors: Hristo Sendov, Mengxu Yuan
   journal: "Submitted"
