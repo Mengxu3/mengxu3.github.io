@@ -16,13 +16,13 @@
   url: "https://arxiv.org/abs/2608.04294"
 
 - type: journal
-  title: "Aggregate Bounds on the eigenvalues of the principal submatrices of a Hermitian matrix and majorization relations"
+  title: "Aggregate Bounds on the Eigenvalues of the Principal Submatrices of a Hermitian Matrix and Majorization Relations"
   authors: Hristo Sendov, Mengxu Yuan
   journal: "Submitted"
   year: 2026
   pages: "18 pages"
   doi: "10.48550/arXiv.2601.16320"
-  url: "http://arxiv.org/abs/2601.16320"
+  url: "https://arxiv.org/abs/2601.16320"
 
 - type: journal
   title: "Few-shot Font Generation based on SAE and Diffusion Model"
