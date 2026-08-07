@@ -31,6 +31,6 @@ profiles:
 intro:
   title: Hello!
   body: >
-    I am a PhD student in the [Department of Mathematics](https://www.math.uwo.ca/) at the [University of Western Ontario](https://www.uwo.ca/index.html).
-    My supervisor is [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html).
-    My research interests lie primarily in [Matrix Analysis](https://en.wikipedia.org/wiki/Matrix_analysis). You can find my CV [here](/assets/20260807_CV_Mengxu.pdf).
+    I am a PhD student in the [Department of Mathematics](https://www.math.uwo.ca/){:target="_blank"} at the [University of Western Ontario](https://www.uwo.ca/index.html){:target="_blank"}.
+My supervisor is [Dr. Hristo Sendov](https://www.uwo.ca/stats/people/bios/hristo-sendov.html){:target="_blank"}.
+My research interests lie primarily in [Matrix Analysis](https://en.wikipedia.org/wiki/Matrix_analysis){:target="_blank"}. You can find my CV [here](/assets/20260807_CV_Mengxu.pdf){:target="_blank"}.
